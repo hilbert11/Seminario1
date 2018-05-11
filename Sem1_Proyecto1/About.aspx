@@ -4,7 +4,9 @@
     <h2><%: Title %>RECOMENDACIONES</h2>
     <%--<h3>Recomendaciones.</h3>--%>
     <h3>En esta area usted podra agregar las recomendaciones necesarias</h3>
-    <div>
+
+    <div class="row">
+        <div class="alert alert-dismissible alert-primary">
         <table style="width:100%;">
             <tr>
                 <td style="width: 124px">
@@ -15,6 +17,7 @@
                 </td>
 
             </tr>
+
             <tr>
                 <td style="width: 124px">
                     <asp:Label ID="Label2" runat="server" Text="Recomendacion" Font-Bold="True" Font-Size="X-Large"></asp:Label>
@@ -31,8 +34,9 @@
 
             </tr>
 
-        </table>
-
+        
+                </table>
+            </div>
     </div>
     <p>        
         <asp:Button ID="Button1" runat="server" class="btn btn-outline-success" Text="Regresar" OnClick="Button1_Click" Font-Bold="True" Font-Size="Large" />

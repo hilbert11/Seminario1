@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:servidor-201313889.database.windows.net,1433;Initial Catalog=basededatos;Persist Security Info=True;User ID=hil;Password=Lambo_1107;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hilbert\\Desktop\\USAC\\11vo\ Semestre\ 2018\\SEMINARIO\ 1\\Lab\\Sem1_Proyecto1\\Sem1_Proyecto1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hilbert\\Documents\\Sem1\\Sem1_Proyecto1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>
