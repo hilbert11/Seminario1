@@ -91,3 +91,6 @@ C:\Users\Hilbert\Desktop\USAC\11vo Semestre 2018\SEMINARIO 1\Lab\Sem1_Proyecto1\
 C:\Users\Hilbert\Desktop\USAC\11vo Semestre 2018\SEMINARIO 1\Lab\Sem1_Proyecto1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.csprojResolveAssemblyReference.cache
 C:\Users\Hilbert\Desktop\USAC\11vo Semestre 2018\SEMINARIO 1\Lab\Sem1_Proyecto1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.dll
 C:\Users\Hilbert\Desktop\USAC\11vo Semestre 2018\SEMINARIO 1\Lab\Sem1_Proyecto1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.pdb
+C:\Users\Hilbert\Documents\Sem1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\Hilbert\Documents\Sem1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.dll
+C:\Users\Hilbert\Documents\Sem1\Sem1_Proyecto1\obj\Debug\Sem1_Proyecto1.pdb

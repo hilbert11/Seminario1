@@ -26,10 +26,7 @@ namespace Sem1_Proyecto1
                 MessageBox.Show("Incorrecto");
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("https://github.com/hilbert11/Seminario1");
-        }
+ 
 
     }
 }

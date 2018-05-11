@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Sem1_Proyecto1.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>RECOMENDACIONES</h2>
+    <p class="text-success" style="font-size: 40px">Recomendaciones</p>   
     <%--<h3>Recomendaciones.</h3>--%>
     <h3>En esta area usted podra agregar las recomendaciones necesarias</h3>
 
@@ -37,6 +37,19 @@
         
                 </table>
             </div>
+    </div>
+    <div>
+        <h2>
+            Gracias por tu Recomendacion
+        </h2>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+            <Columns>
+                <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
+                <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [Nombre], [Descripcion] FROM [Recomendacion]"></asp:SqlDataSource>
+
     </div>
     <p>        
         <asp:Button ID="Button1" runat="server" class="btn btn-outline-success" Text="Regresar" OnClick="Button1_Click" Font-Bold="True" Font-Size="Large" />

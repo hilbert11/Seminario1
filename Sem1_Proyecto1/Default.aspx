@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Datos Personales</h2>
+            <p class="text-success" style="font-size: 35px">Datos Personales</p>
             <table style="width:100%;">
                 <tr>
                     <td>
@@ -23,7 +23,7 @@
                     </td>
                     <td>
                             <asp:Image id="Image6" runat="server" ImageUrl="~/Content/yo.jpg" Height="140px" Width="161px" AlternateText="Habilidades" ImageAlign="TextTop" />
-                        h</td>
+                        </td>
                 </tr>
             </table>
 
@@ -33,7 +33,7 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Habilidades</h2>
+            <p class="text-success" style="font-size: 35px">Habilidades</p>
                 <table style="width:100%;">
                     <tr>
                         <td>
@@ -41,7 +41,9 @@
                                 Habilidad numerica y desarrolo de algoritmos<br/>
                                 Conocimientos basicos en lenguajes de programacion como visual studio .NET, ASP.NET, C++, C, Java, Android Studio <br/>
                                 Liderazgo para la gestion de proyectos y distribucion del mismo <br />
-                                Capacidades para comprender en la explicacion del proyecto asi empezar el desarrollo del mismo. 
+                                Capacidades para comprender en la explicacion del proyecto asi empezar el desarrollo del mismo <br />
+                                IDIOMAS? <br />
+                                Cuento con la habilidad de tener un ingles nivel medio.
                 
                             </h3>
                         </td>
@@ -63,7 +65,7 @@
         
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Experiencia</h2>
+            <p class="text-success" style="font-size: 35px">Experiencia</p>
                 <table style="width:100%;">
                     <tr>
                         <td>
@@ -84,11 +86,12 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Estudios</h2>
+            <p class="text-success" style="font-size: 35px">Estudios</p>
                 <table style="width:100%;">
                     <tr>
                         <td>
                             <h3>
+                                Actualmente cursando el 7mo semestre de Ingenieria en Sistemas<br/>
                                 Bachillerato en Computacion<br/>
                                 Curso en Reparacion y Mantenimiento en computadoras <br/>
                                 Liderazgo entre el publico <br />
@@ -105,11 +108,12 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Logros</h2>
+            <p class="text-success" style="font-size: 35px">Logros</p>
                 <table style="width:100%;">
                     <tr>
                         <td>
                             <h3>
+                                Logros-USAC<br />
                                 Graduarme de Bachiller en Computacion<br/>
                                 Diplomados en reparacion y mantenimiento en computadoras <br />
                                 Diploma de como ser un buen lider dentro de donde me rodeo.
@@ -125,12 +129,12 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Repositorio</h2>
+            <p class="text-success" style="font-size: 35px">Repositorio</p>
                 <table style="width:100%;">
                     <tr>
                         <td>
                             <h3>
-                               Se adjunta link con repositorio de proyectos creados dentro de la Universidad <br />
+                               Se adjunta link con repositorio de este proyecto
                                como muestra de lo que he logrado hacer y así tengan claro de la calidad de mis proyectos.
                 
                             </h3>
@@ -141,7 +145,7 @@
                     </tr>
                 </table>            
             <p>
-                <asp:Button ID="Button2" runat="server" class="btn btn-outline-success" Text="Repositorio" OnClick="Button2_Click" BorderStyle="Solid" Font-Size="Large" />
+                <asp:LinkButton runat="server" id="SomeLinkButton" href="https://github.com/hilbert11/Seminario1" class="btn btn-outline-success" target="_blank" Font-Size="X-Large">Repositorio</asp:LinkButton>
             </p>
         </div>
     </div>
@@ -152,9 +156,10 @@
 
     <div class="row">
         <div class="alert alert-dismissible alert-primary">
-            <h2>Recomendaciones</h2>            
+            <p class="text-success" style="font-size: 35px">Recomendaciones</p>            
             <p>
                 <asp:Button ID="Button1" runat="server" class="btn btn-outline-success" Text="Recomendaciones" OnClick="Button1_Click" BorderStyle="Solid" Font-Size="Large" />
+
             </p>
         </div>
     </div>

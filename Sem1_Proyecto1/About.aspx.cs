@@ -41,6 +41,8 @@ namespace Sem1_Proyecto1
                 Response.Write("<script>window.alert('Gracias por la recomendacion :D')</script>");
                 TextBox1.Text = "";
                 TextBox2.Text = "";
+                GridView1.DataBind();
+                
             }
                 
             else
